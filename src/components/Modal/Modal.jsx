@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import styles from './Modal.module.css';
 
 const Modal = ({ image, tags, onClose }) => {
+ 
   const onCloseRef = useRef(onClose);
 
- 
   useEffect(() => {
     onCloseRef.current = onClose;
   }, [onClose]);
