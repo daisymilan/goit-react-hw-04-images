@@ -15,7 +15,7 @@ const App = () => {
     isEnd,
     handleSearchSubmit,
     handleLoadMore,
-    uniqueTags, 
+    uniqueTags, // access unique tags
   } = useImages();
 
   return (
