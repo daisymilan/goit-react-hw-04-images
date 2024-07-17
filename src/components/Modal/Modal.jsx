@@ -5,11 +5,13 @@ import styles from './Modal.module.css';
 const Modal = ({ image, tags, onClose }) => {
   const onCloseRef = useRef(onClose);
 
+ 
   useEffect(() => {
     onCloseRef.current = onClose;
   }, [onClose]);
 
   useEffect(() => {
+    
     const handleKeyDown = e => {
       if (e.code === 'Escape') {
         onCloseRef.current();

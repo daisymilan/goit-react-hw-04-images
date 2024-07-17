@@ -1,5 +1,5 @@
 @import-normalize;
-/* bring in normalize.css styles */
+
 html {
   box-sizing: border-box;
   width: 100vw;
@@ -21,7 +21,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* START OF RESET CSS */
+
 h1,
 h2,
 h3,
@@ -45,4 +45,4 @@ img {
   height: auto;
 }
 
-/* END OF RESET CSS */
+
